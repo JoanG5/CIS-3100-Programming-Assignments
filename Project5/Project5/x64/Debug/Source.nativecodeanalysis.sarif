@@ -1,0 +1,780 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'StudentData::score' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 1,
+                  "endLine": 21,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "StudentData::{ctor}",
+                  "decoratedName": "??0StudentData@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "StudentData::score"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'StudentData::percentage' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 1,
+                  "endLine": 21,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "StudentData::{ctor}",
+                  "decoratedName": "??0StudentData@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "StudentData::percentage"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'StudentData::pointGrade' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 1,
+                  "endLine": 21,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "StudentData::{ctor}",
+                  "decoratedName": "??0StudentData@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "StudentData::pointGrade"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'StudentData::curveGrade' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 1,
+                  "endLine": 21,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "StudentData::{ctor}",
+                  "decoratedName": "??0StudentData@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "StudentData::curveGrade"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'StudentData::finalGrade' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                },
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 1,
+                  "endLine": 21,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "StudentData::{ctor}",
+                  "decoratedName": "??0StudentData@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "StudentData::finalGrade"
+          }
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'NewArr'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                },
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 3,
+                  "endLine": 68,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "newArray",
+                  "decoratedName": "?newArray@@YAXAEAPEAUStudentData@@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'NewArr' is a 112 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<size')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<size')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'std::basic_string<char,std::char_traits<char>,std::allocator<char> >::=' (declared at c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\xstring:3302)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'NewArr', (outside its readable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'NewArr'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 3,
+                  "endLine": 70,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "newArray",
+                  "decoratedName": "?newArray@@YAXAEAPEAUStudentData@@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "'NewArr' is a 112 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<size')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'i<size')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 68,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'std::basic_string<char,std::char_traits<char>,std::allocator<char> >::=' (declared at c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\xstring:3302)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an Output from 'std::basic_string<char,std::char_traits<char>,std::allocator<char> >::=' (declared at c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.34.31933\\include\\xstring:3302)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'NewArr[1]', (writable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+                },
+                "region": {
+                  "startLine": 66,
+                  "startColumn": 40,
+                  "endLine": 66,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "newArray",
+                  "decoratedName": "?newArray@@YAXAEAPEAUStudentData@@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.34.31937.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Joan/Desktop/Project5/Project5/Source.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9e82a7548bdcd1bc5462147055ed8ed87b036d45a756538c54262b3d27619560"
+          }
+        }
+      ]
+    }
+  ]
+}
